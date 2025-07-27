@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f6fa;
+  color: #333;
+}
+
+header {
+  background-color: #00264d;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.logo {
+  width: 130px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+header .btn {
+  background-color: #007bff;
+  padding: 12px 20px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+nav {
+  background-color: #003366;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+section h2 {
+  color: #00264d;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 2;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+form button:hover {
+  background-color: #005bb5;
+}
+
+footer {
+  background-color: #00264d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer .social {
+  margin-top: 10px;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  margin: 5px;
+  /*filter: brightness(0) invert(1); /* para deixar o ícone branco no fundo escuro */
+  transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
