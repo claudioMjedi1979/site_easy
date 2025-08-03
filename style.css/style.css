@@ -99,9 +99,6 @@ footer {
   margin-top: 40px;
 }
 
-footer .social {
-  margin-top: 10px;
-}
 
 .social-icon {
   width: 32px;
@@ -111,7 +108,51 @@ footer .social {
   transition: transform 0.2s ease;
 }
 
-.social-icon:hover {
-  transform: scale(1.1);
+
+
+
+
+.footer-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
+
+.logo-aws {
+  width: 160px;
+  height: auto;
+  opacity: 0.95;
+}
+
+footer {
+  background-color: #00264d;
+  color: white;
+  padding: 20px 40px;
+  margin-top: 0; /* Garante que não haja espaço acima */
+}
+
+body > *:last-child {
+  margin-bottom: 0;
+}
+
+#parceria-aws {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#parceria-aws h2 {
+  color: #00264d;
+  margin-bottom: 15px;
+}
+
+#parceria-aws p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
 
